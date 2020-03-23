@@ -159,7 +159,7 @@ sup {
 }
 
 a {
-  color: #f4623a;
+  color: black;
   text-decoration: none;
   background-color: transparent;
 }
@@ -9977,6 +9977,8 @@ hr.light {
   text-transform: uppercase;
   border: none;
   border-radius: 10rem;
+  background-color: #F4623A;
+  color: aliceblue;
 }
 
 .page-section {
@@ -10115,4 +10117,78 @@ header.masthead h1 {
 
 .text-white-75 {
   color: rgba(255, 255, 255, 0.75);
+}
+/* css only show/hide*/
+.post-container{
+    padding: 5%;
+}
+article {
+    margin-bottom: 3rem;
+    position: relative;
+}
+
+article:before, article:after {
+    content: "";
+    display: table;
+}
+
+article:after { clear: both }
+
+article section:first-of-type {
+    float: right;
+    width: 100%;
+}
+
+article section:last-of-type {
+    display: none;
+    visibility: hidden;
+}
+
+input[type=checkbox] {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    width: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+}
+
+[for="read_more"] {
+    position: absolute;
+    bottom: -3rem;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding: .65rem;
+    box-shadow: inset 1px 1px rgba(0, 0, 0, 0.1), inset -1px -1px rgba(0, 0, 0, 0.1);
+}
+
+[for="read_more"]:hover {
+    background: rgba(0,0,0,.5);
+    color: rgb(255,255,255);
+}
+
+[for="read_more"] span:last-of-type {
+    display: none;
+    visibility: hidden;
+}
+
+input[type=checkbox]:checked ~ section {
+    display: block;
+    visibility: visible;
+    width: 100%;
+}
+
+input[type=checkbox]:checked ~ figure { width: 100% }
+
+input[type=checkbox]:checked ~ [for="read_more"] span:first-of-type {
+    display: none;
+    visibility: hidden;
+}
+
+input[type=checkbox]:checked ~ [for="read_more"] span:last-of-type {
+    display: block;
+    visibility: visible;
 }
