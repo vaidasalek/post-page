@@ -1,3 +1,11 @@
+var xmlHttp = new XMLHttpRequest();
+    xmlHttp.open( "GET", 'https://my-json-server.typicode.com/vaidasalek/post-page/posts', false ); // false for synchronous request
+    xmlHttp.send( null );
+var posts = JSON.parse(xmlHttp.responseText);
+for(var i = 0; i < posts.length; i++){
+console.log(posts[i].title);
+};
+
 /*!
     * Start Bootstrap - Creative v6.0.0 (https://startbootstrap.com/themes/creative)
     * Copyright 2013-2020 Start Bootstrap
@@ -47,3 +55,4 @@
 
 
 })(jQuery); // End of use strict
+
