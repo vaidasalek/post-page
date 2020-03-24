@@ -45,4 +45,20 @@
   $(window).scroll(navbarCollapse);
 
 
+
 })(jQuery); // End of use strict
+
+$(document).ready(
+	function Controller($scope) {
+     $scope.comments = [];
+     $scope.btn_post = function() {
+         if ($scope.cmtName != '') {
+             $scope.comments.push($scope.cmtName);
+             $scope.cmtName = "";
+         }
+     }
+     $scope.post_cmt = function($home) {
+         $scope.comments.splice($home, 1);
+     }
+ }
+);
