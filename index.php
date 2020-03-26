@@ -78,68 +78,6 @@
 						</div>
             </div>
         </section>
-		  <section class="page-section" id="post">
-            <div class="container">
-                <hr class="divider my-4" />
-                <div class="row">
-						  <div class="span8">
-							 <div class="row">
-								<div class="span8">
-									<h4><strong>Title of the second post</strong></h4>
-								</div>
-							 </div>
-							 <div class="row">
-								<div class="span6">
-								  <p>
-									 Lorem ipsum dolor sit amet, id nec conceptam conclusionemque. Et eam tation option. Utinam salutatus ex eum. Ne mea dicit tibique facilisi, ea mei omittam explicari conclusionemque, ad nobis propriae quaerendum sea.  Lorem ipsum dolor sit amet, id nec conceptam conclusionemque. Et eam tation option. Utinam salutatus ex eum. Ne mea dicit tibique facilisi, ea mei omittam explicari conclusionemque, ad nobis propriae quaerendum sea. Lorem ipsum dolor sit amet, id nec conceptam conclusionemque. Et eam tation option. Utinam salutatus ex eum. Ne mea dicit tibique facilisi, ea mei omittam explicari conclusionemque, ad nobis propriae quaerendum sea. Lorem ipsum dolor sit amet, id nec conceptam conclusionemque. Et eam tation option. Utinam salutatus ex eum. Ne mea dicit tibique facilisi, ea mei omittam explicari conclusionemque, ad nobis propriae quaerendum sea. Lorem ipsum dolor sit amet, id nec conceptam conclusionemque. Et eam tation option. Utinam salutatus ex eum. Ne mea dicit tibique facilisi, ea mei omittam explicari conclusionemque, ad nobis propriae quaerendum sea.
-								  </p>
-								 <a href="assets/pages/postpage2.html"><button type="button" class="btn btn-sm custom-btn">Read more</button></a>
-								</div>
-							 </div>
-							 <div class="row">
-								<div class="span8">
-								  <p></p>
-								  <p>
-									 <i class="icon-user"></i> by <a href="#">John</a>
-									 | <i class="icon-comment"></i> <a href="#">4 Comments</a>
-								  </p>
-								</div>
-							 </div>
-						  </div>
-						</div>
-            </div>
-        </section>
-		  <section class="page-section" id="post">
-            <div class="container">
-                <hr class="divider my-4" />
-                <div class="row">
-						  <div class="span8">
-							 <div class="row">
-								<div class="span8">
-									<h4><strong>Title of the third post</strong></h4>
-								</div>
-							 </div>
-							 <div class="row">
-								<div class="span6">
-								  <p>
-									 Lorem ipsum dolor sit amet, id nec conceptam conclusionemque. Et eam tation option. Utinam salutatus ex eum. Ne mea dicit tibique facilisi, ea mei omittam explicari conclusionemque, ad nobis propriae quaerendum sea.  Lorem ipsum dolor sit amet, id nec conceptam conclusionemque. Et eam tation option. Utinam salutatus ex eum. Ne mea dicit tibique facilisi, ea mei omittam explicari conclusionemque, ad nobis propriae quaerendum sea. Lorem ipsum dolor sit amet, id nec conceptam conclusionemque. Et eam tation option. Utinam salutatus ex eum. Ne mea dicit tibique facilisi, ea mei omittam explicari conclusionemque, ad nobis propriae quaerendum sea. Lorem ipsum dolor sit amet, id nec conceptam conclusionemque. Et eam tation option. Utinam salutatus ex eum. Ne mea dicit tibique facilisi, ea mei omittam explicari conclusionemque, ad nobis propriae quaerendum sea. Lorem ipsum dolor sit amet, id nec conceptam conclusionemque. Et eam tation option. Utinam salutatus ex eum. Ne mea dicit tibique facilisi, ea mei omittam explicari conclusionemque, ad nobis propriae quaerendum sea.
-								  </p>
-								 <a href="assets/pages/postpage3.html"><button type="button" class="btn btn-sm custom-btn">Read more</button></a>
-								</div>
-							 </div>
-							 <div class="row">
-								<div class="span8">
-								  <p></p>
-								  <p>
-									 <i class="icon-user"></i> by <a href="#">John</a>
-									 | <i class="icon-comment"></i> <a href="#">2 Comments</a>
-								  </p>
-								</div>
-							 </div>
-						  </div>
-						</div>
-            </div>
-        </section>
         <!-- Contact section-->
         <section class="page-section" id="contact">
             <div class="container">

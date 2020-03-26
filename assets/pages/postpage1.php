@@ -23,7 +23,7 @@
         <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3 custom-nav">
             <div class="container">
                 <a class="navbar-brand" href="/index.php">Blog Page</a><button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
+                <div class="collapse navbar-collapse float-right" id="navbarResponsive">
                     <ul class="navbar-nav ml-auto my-2 my-lg-0">
                         <li class="nav-item"><a class="nav-link js-scroll-trigger black" href="/index.php#post">Posts</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="/index.php#contact">Contact</a></li>
@@ -64,18 +64,19 @@
         </section>
         <!-- Comment section-->
 		 <section>
-		 	<h2 align="center"><a href="#">Comments</a></h2>
+		 	<h2 class="text-center mt-0">Comments</h2>
+         <hr class="divider my-4" />
 			<br/>
 			 <div class="container">
 			 	<form method="POST" id="comment_form">
-				 	<div class="form-group">
+				 	<div class="form-group --orange">
 						<input type="text" name="comment_email" id="comment_email" class="form-control" placeholder="Enter Email Adress"/>
 					</div>
-					<div class="form-group">
+					<div class="form-group --orange">
 						<textarea name="comment_content" id="comment_content" class="form-control" placeholder="Enter your comment" rows="5" ></textarea>
 					</div>
 					<div class="form-group">
-						<input type="submit" name="submit" id="submit" class="btn btn-info" value="Submit">
+						<button type="submit" name="submit" id="submit" class="btn btn-sm custom-btn">Comment</button>
 					</div>
 				 </form>
 				 <span id="comment_message"></span>
