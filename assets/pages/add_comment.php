@@ -3,16 +3,20 @@
 $connect = new PDO('mysql:host=localhost;dbname=postpage', 'root', '');
 
 	$error = '';
-	$comment_name = '';
+	$comment_email = '';
 	$comment_content = '';
 
-	if(empty($_POST["comment_name"]))
+	if(empty($_POST["comment_email"]))
 	{
-		$error .= '<p class="text-danger">Name is required</p>';
+		$error .= '<p class="text-danger">Email is required</p>';
+	}
+	else if(!filter_var($_POST["comment_email"], FILTER_VALIDATE_EMAIL))
+	{
+   	$error .= '<p class="text-danger">Wrong Email</p>';
 	}
 	else
 	{
-		$comment_name = $_POST["comment_name"];
+		$comment_email = $_POST["comment_email"];
 	}
 
 
@@ -29,16 +33,15 @@ $connect = new PDO('mysql:host=localhost;dbname=postpage', 'root', '');
 	{
 		$query = "
 		INSERT INTO comment
-		(parent_comment_id, comment, comment_sender_name)
-		VALUES (:parent_comment_id, :comment, :comment_sender_name)";
+		(comment, comment_sender_email)
+		VALUES (:comment, :comment_sender_email)";
 
 
 		$statement = $connect->prepare($query);
 		$statement->execute(
 				array (
-					':parent_comment_id'		=> '0',
 					':comment'					=> $comment_content,
-					':comment_sender_name'	=> $comment_name
+					':comment_sender_email'	=> $comment_email
 				)
 		);
 		$error = '<label class="text-success">Comment Added</label>';

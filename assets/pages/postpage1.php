@@ -69,10 +69,10 @@
 			 <div class="container">
 			 	<form method="POST" id="comment_form">
 				 	<div class="form-group">
-						<input type="text" name="comment_name" id="comment_name" class="form-control" placeholder="Enter Name"/>
+						<input type="text" name="comment_email" id="comment_email" class="form-control" placeholder="Enter Email Adress"/>
 					</div>
 					<div class="form-group">
-						<textarea name="comment_content" id="comment_content" class="form-control" placeholder="Enter your comment" rows="5"></textarea>
+						<textarea name="comment_content" id="comment_content" class="form-control" placeholder="Enter your comment" rows="5" ></textarea>
 					</div>
 					<div class="form-group">
 						<input type="submit" name="submit" id="submit" class="btn btn-info" value="Submit">
