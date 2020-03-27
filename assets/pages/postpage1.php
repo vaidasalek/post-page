@@ -22,11 +22,11 @@
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3 custom-nav">
             <div class="container">
-                <a class="navbar-brand" href="/index.php">Blog Page</a><button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <a class="navbar-brand" href="/index.html">Blog Page</a><button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse float-right" id="navbarResponsive">
                     <ul class="navbar-nav ml-auto my-2 my-lg-0">
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger black" href="/index.php#post">Posts</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="/index.php#contact">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger black" href="/index.html">Posts</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="/index.html#contact">Contact</a></li>
                     </ul>
                 </div>
             </div>
