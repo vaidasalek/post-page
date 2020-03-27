@@ -27,8 +27,7 @@
 				</ul>
 			</div>
 		</div>
-	</nav><!-- PHP -->
-
+	</nav>
 	<!-- Post section-->
 	<section class="page-section" id="post">
 		<div class="container">
