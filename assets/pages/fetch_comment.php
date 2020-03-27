@@ -17,10 +17,10 @@ foreach ($result as $row)
 {
 	$output .= '
 
-		<div class="panel panel-default">
-			<div class="panel-heading">By <b>'.$row["comment_sender_email"].'
+		<div class="card-body">
+			<div class="card-header">By <b>'.$row["comment_sender_email"].'
 				</b> on <i>'.$row["date"].'</i></div>
-			<div class="panel-body">'.$row["comment"].'</div>
+			<div class="card-body">'.$row["comment"].'</div>
 		</div>
 
 	';

@@ -4,31 +4,41 @@
 	<meta charset="utf-8">
 	<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
 	<title>Post page</title>
-	<script src="https://use.fontawesome.com/releases/v5.12.1/js/all.js">
-	</script>
 	<link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic" rel="stylesheet" type="text/css">
-	<link href="/css/styles.css" rel="stylesheet">
+	<link href="css/styles.css" rel="stylesheet">
 	<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" id="bootstrap-css" rel="stylesheet">
 </head>
 <body id="page-top">
 	<!-- Navigation-->
-	<nav class="navbar navbar-expand-lg navbar-light fixed-top py-3 custom-nav">
+	<nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
 		<div class="container">
-			<a class="navbar-brand" href="/index.php">Blog Page</a><button aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right" data-target="#navbarResponsive" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
-			<div class="collapse navbar-collapse float-right" id="navbarResponsive">
+			<a class="navbar-brand js-scroll-trigger" href="#page-top">Blog Page</a><button aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right" data-target="#navbarResponsive" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+			<div class="collapse navbar-collapse" id="navbarResponsive">
 				<ul class="navbar-nav ml-auto my-2 my-lg-0">
 					<li class="nav-item">
-						<a class="nav-link js-scroll-trigger black" href="/index.php">Posts</a>
+						<a class="nav-link js-scroll-trigger" href="#post">Posts</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link js-scroll-trigger" href="/index.php#contact">Contact</a>
+						<a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
 					</li>
 				</ul>
 			</div>
 		</div>
-	</nav><!-- PHP -->
-
+	</nav><!-- Masthead-->
+	<header class="masthead">
+		<div class="container h-100">
+			<div class="row h-100 align-items-center justify-content-center text-center">
+				<div class="col-lg-10 align-self-end">
+					<h1 class="text-uppercase text-white font-weight-bold">Welcome to my personal BlogSpot</h1>
+					<hr class="divider my-4">
+				</div>
+				<div class="col-lg-8 align-self-baseline">
+					<p class="text-white-75 font-weight-light mb-5">Hey i hope you will like reading my ideas and stories. Enjoy!</p><a class="btn btn-xl js-scroll-trigger" href="#post">Blogspot</a>
+				</div>
+			</div>
+		</div>
+	</header><!-- PHP -->
 	<!-- Post section-->
 	<section class="page-section" id="post">
 		<div class="container">
@@ -42,34 +52,16 @@
 					</div>
 					<div class="row">
 						<div class="span6">
-							<p>Lorem ipsum dolor sit amet, id nec conceptam conclusionemque. Et eam tation option. Utinam salutatus ex eum. Ne mea dicit tibique facilisi, ea mei omittam explicari conclusionemque, ad nobis propriae quaerendum sea. Lorem ipsum dolor sit amet, id nec conceptam conclusionemque. Et eam tation option. Utinam salutatus ex eum. Ne mea dicit tibique facilisi, ea mei omittam explicari conclusionemque, ad nobis propriae quaerendum sea. Lorem ipsum dolor sit amet, id nec conceptam conclusionemque. Et eam tation option. Utinam salutatus ex eum. Ne mea dicit tibique facilisi, ea mei omittam explicari conclusionemque, ad nobis propriae quaerendum sea. Lorem ipsum dolor sit amet, id nec conceptam conclusionemque. Et eam tation option. Utinam salutatus ex eum. Ne mea dicit tibique facilisi, ea mei omittam explicari conclusionemque, ad nobis propriae quaerendum sea. Lorem ipsum dolor sit amet, id nec conceptam conclusionemque. Et eam tation option. Utinam salutatus ex eum. Ne mea dicit tibique facilisi, ea mei omittam explicari conclusionemque, ad nobis propriae quaerendum sea.</p>
+							<p>Lorem ipsum dolor sit amet, id nec conceptam conclusionemque. Et eam tation option. Utinam salutatus ex eum. Ne mea dicit tibique facilisi, ea mei omittam explicari conclusionemque, ad nobis propriae quaerendum sea. Lorem ipsum dolor sit amet, id nec conceptam conclusionemque. Et eam tation option. Utinam salutatus ex eum. Ne mea dicit tibique facilisi, ea mei omittam explicari conclusionemque, ad nobis propriae quaerendum sea. Lorem ipsum dolor sit amet, id nec conceptam conclusionemque. Et eam tation option. Utinam salutatus ex eum. Ne mea dicit tibique facilisi, ea mei omittam explicari conclusionemque, ad nobis propriae quaerendum sea. Lorem ipsum dolor sit amet, id nec conceptam conclusionemque. Et eam tation option. Utinam salutatus ex eum. Ne mea dicit tibique facilisi, ea mei omittam explicari conclusionemque, ad nobis propriae quaerendum sea. Lorem ipsum dolor sit amet, id nec conceptam conclusionemque. Et eam tation option. Utinam salutatus ex eum. Ne mea dicit tibique facilisi, ea mei omittam explicari conclusionemque, ad nobis propriae quaerendum sea.</p><a href="assets/pages/postpage1.php"><button class="btn btn-sm custom-btn" type="button">Read more</button></a>
 						</div>
 					</div>
 					<div class="row">
 						<div class="span8">
-							<p>by John | <span class="icon-comment" id="display-number"></span> Comments</p>
+							<p>by John | <span class="icon-comment"></span></p>
 						</div>
 					</div>
 				</div>
 			</div>
-		</div>
-	</section><!-- Comment section-->
-	<section>
-		<h2 class="text-center mt-0">Comments</h2>
-		<hr class="divider my-4">
-		<div class="container">
-			<form id="comment_form" method="post" name="comment_form">
-				<div class="form-group --orange">
-					<input class="form-control" id="comment_email" name="comment_email" placeholder="Enter Email Adress" type="text">
-				</div>
-				<div class="form-group --orange">
-					<textarea class="form-control" id="comment_content" name="comment_content" placeholder="Enter your comment" rows="5"></textarea>
-				</div>
-				<div class="form-group">
-					<button class="btn btn-sm custom-btn" id="submit" name="submit" type="submit">Comment</button>
-				</div>
-			</form><span id="comment_message"></span>
-			<div id="display_comment"></div>
 		</div>
 	</section><!-- Contact section-->
 	<section class="page-section" id="contact">
@@ -110,14 +102,11 @@
 	</script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js">
 	</script> <!-- Core theme JS-->
-
 	<script src="/js/scripts.js">
 	</script>
-	<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js">
+	<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js">
 	</script>
 	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js">
-	</script>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js">
 	</script>
 </body>
 </html>
